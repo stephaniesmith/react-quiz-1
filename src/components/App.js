@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import TextSelector from './text-selector/TextSelector';
 import ColorSelector from './color-selector/ColorSelector';
+import Shape from './shape/Shape';
 
 export default class App extends Component {
 
@@ -25,6 +26,7 @@ export default class App extends Component {
         <h1>Lets Change The Colors</h1>
         <TextSelector text={text} handleChange={this.handleChange}/>
         <ColorSelector textColor={textColor} backgroundColor={backgroundColor} handleChange={this.handleColorChange}></ColorSelector>
+        <Shape text={text} textChange={this.handleChange} colorChange={this.handleColorChange}/>
       </Fragment>
     );
   }
