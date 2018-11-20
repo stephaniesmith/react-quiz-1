@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextSelector test TextSelector snapshot 1`] = `
+Array [
+  <label
+    htmlFor="text"
+  >
+    Text: 
+  </label>,
+  <input
+    name="text"
+    onChange={[MockFunction]}
+    type="text"
+    value="my text"
+  />,
+]
+`;

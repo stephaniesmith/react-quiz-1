@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorSelector test ColorSelector snapshot 1`] = `
+Array [
+  <label
+    htmlFor="textColor"
+  >
+    Text color: 
+  </label>,
+  <input
+    name="textColor"
+    onChange={[MockFunction]}
+    type="color"
+    value="#FFFFFF"
+  />,
+  <label
+    htmlFor="backgroundColor"
+  >
+    Background color: 
+  </label>,
+  <input
+    name="backgroundColor"
+    onChange={[MockFunction]}
+    type="color"
+    value="#000000"
+  />,
+]
+`;
