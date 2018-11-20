@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component should be a app 1`] = `
+<main>
+  <TextSelector
+    onChange={[Function]}
+    text=""
+  />
+   
+  <br />
+  <ColorSelector
+    backgroundColor="white"
+    fontColor="black"
+    onChange={[Function]}
+  />
+   
+  <br />
+  <Shape
+    backgroundColor="white"
+    fontColor="black"
+    text=""
+  />
+</main>
+`;
