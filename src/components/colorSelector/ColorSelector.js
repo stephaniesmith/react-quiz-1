@@ -10,9 +10,9 @@ function ColorSelector({ onChange, fontColor, backgroundColor }) {
 
   return (
     <Fragment>
-      <label htmlFor="fontColorOptions">Font Color</label>
+      <label htmlFor="fontColor">Font Color</label>
       <select
-        name="fontColorOptions" defaultValue={fontColor}
+        name="fontColor" defaultValue={fontColor}
         onChange={onChange}
       >{fontColorOptions}
       </select>

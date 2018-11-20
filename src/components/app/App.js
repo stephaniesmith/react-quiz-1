@@ -34,7 +34,7 @@ export default class App extends Component {
         /> <br />
         <Shape
           text={text}
-          color={fontColor}
+          fontColor={fontColor}
           backgroundColor={backgroundColor}
         />
       </main>

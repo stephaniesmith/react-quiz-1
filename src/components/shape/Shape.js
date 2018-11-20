@@ -3,9 +3,14 @@ import PropTypes from 'prop-types';
 
 function Shape({ text, fontColor, backgroundColor }) {
 
+  const style = {
+    color: fontColor,
+    backgroundColor
+  };
+
   return (
     <Fragment>
-      <div style={{ color: fontColor, backgroundColor }}>
+      <div style={style}>
         {text}
       </div>
     </Fragment>
