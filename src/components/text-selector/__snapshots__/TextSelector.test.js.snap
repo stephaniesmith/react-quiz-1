@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextSelector Component renders a Songs component 1`] = `
+<Fragment>
+  <input
+    name="text"
+  />
+</Fragment>
+`;
