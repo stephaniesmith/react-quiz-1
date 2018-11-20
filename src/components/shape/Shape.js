@@ -1,19 +1,21 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
-function Shape({ artist, works }) {
+function Shape({ text, fontColor, backgroundColor }) {
 
   return (
     <Fragment>
-      <div>
-        I am shape.
+      <div style={{ color: fontColor, backgroundColor }}>
+        {text}
       </div>
     </Fragment>
   );
 }
 
 Shape.propTypes = {
-  // note: PropTypes.object.isRequired
+  text: PropTypes.string.isRequired,
+  fontColor: PropTypes.string.isRequired,
+  backgroundColor: PropTypes.string.isRequired
 };
 
 export default Shape;

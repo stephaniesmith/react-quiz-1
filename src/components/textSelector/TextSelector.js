@@ -1,12 +1,14 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
-function TextSelector({ artist, works }) {
+function TextSelector({ onChange, text }) {
 
   return (
     <Fragment>
+      <label htmlFor="text">Text</label>
       <input
-        type="text"
+        name="text" type="text"
+        value={text} onChange={onChange}
       ></input>
 
     </Fragment>
@@ -14,7 +16,8 @@ function TextSelector({ artist, works }) {
 }
 
 TextSelector.propTypes = {
-  // note: PropTypes.object.isRequired
+  onChange: PropTypes.func.isRequired,
+  text: PropTypes.string.isRequired
 };
 
 export default TextSelector;
