@@ -23,7 +23,10 @@ export default class App extends Component {
         <ColorSelector onChange={this.handleChange} value={color} />
         <ColorSelector onChange={this.handleChange} value={backgroundColor}/>
         <TextSelector onChange={this.handleChange} value={text}/>
-        <Shape onChange={this.handleChange} />
+        <Shape onChange={this.handleChange}
+          text={text}
+          color={color}
+          backgroundColor={backgroundColor}/>
       </Fragment>
     );
   }
