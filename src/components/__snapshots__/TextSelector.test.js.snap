@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextSelector Component Test TextSelector snapshot 1`] = `
+<div>
+  <label
+    name="text"
+  >
+    Text:
+  </label>
+  <input
+    name="text"
+    type="text"
+  />
+</div>
+`;
