@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import ColorSelector from './ColorSelector';
 
 export default class App extends Component {
     state = {
@@ -16,11 +17,17 @@ export default class App extends Component {
             <Fragment>
                 <h1>React Quiz</h1>
                 <form>
-                    <label> Text: 
-                        <input name="textInput" value={textInput} onChange={this.onChange} />
+                    <label>
+                        {' '}
+                        Text:
+                        <input
+                            name="textInput"
+                            value={textInput}
+                            onChange={this.onChange}
+                        />
                     </label>
                 </form>
-                {textInput && <p>{textInput}</p> }
+                <ColorSelector textInput={textInput} />
             </Fragment>
         );
     }
