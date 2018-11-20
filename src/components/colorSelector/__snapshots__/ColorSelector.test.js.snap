@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`color selector renders a color selector 1`] = `
+<Fragment>
+  <label
+    htmlFor="fontColor"
+  >
+    Font Color
+  </label>
+  <select
+    defaultValue="black"
+    name="fontColor"
+    onChange={[MockFunction]}
+  >
+    <option
+      key="black"
+      value="black"
+    >
+      black
+    </option>
+    <option
+      key="white"
+      value="white"
+    >
+      white
+    </option>
+    <option
+      key="blue"
+      value="blue"
+    >
+      blue
+    </option>
+    <option
+      key="red"
+      value="red"
+    >
+      red
+    </option>
+    <option
+      key="yellow"
+      value="yellow"
+    >
+      yellow
+    </option>
+  </select>
+  <label
+    htmlFor="backgroundColor"
+  >
+    Background Color
+  </label>
+  <select
+    defaultValue="white"
+    name="backgroundColor"
+    onChange={[MockFunction]}
+  >
+    <option
+      key="black"
+      value="black"
+    >
+      black
+    </option>
+    <option
+      key="white"
+      value="white"
+    >
+      white
+    </option>
+    <option
+      key="blue"
+      value="blue"
+    >
+      blue
+    </option>
+    <option
+      key="red"
+      value="red"
+    >
+      red
+    </option>
+    <option
+      key="yellow"
+      value="yellow"
+    >
+      yellow
+    </option>
+  </select>
+</Fragment>
+`;
