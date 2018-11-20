@@ -28,14 +28,15 @@ export default class App extends Component {
 
     const { text, textColor, backgroundColor } = this.state;
 
-
     return (
       <Fragment>
         <TextSelector updateText={this.updateText} />
         <ColorSelector updateTextColor={this.updateTextColor}
           updateBackgroundColor={this.updateBackgroundColor}
         />
-        <Shape text={text} backgroundColor={backgroundColor} textColor={textColor} />
+        <Shape text={text} backgroundColor={backgroundColor}
+          textColor={textColor}
+        />
       </Fragment>
     );
   }

@@ -5,7 +5,6 @@ const TextSelector = ({ updateText }) => {
     <Fragment>
       <label htmlFor='textBox'>Input Text Here</label>
       <input name='textBox' id='textBox' type='text' onChange={updateText} />
-
     </Fragment>
   );
 };
