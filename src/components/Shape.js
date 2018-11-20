@@ -9,12 +9,15 @@ export default class Shape extends Component {
     };
     
     render() {
-        const { textInput } = this.props;
+        const { textInput, fontColor, backgroundColor } = this.props;
+        const font = { color: fontColor };
+        const background = { backgroundColor: backgroundColor };
 
         return (
             <Fragment>
-                <h2>Shape</h2>
-                {textInput && <p>{textInput}</p>}
+                <div style={background}>
+                    {textInput && <p style={font}>{textInput}</p>}
+                </div>
             </Fragment>
         );
     }

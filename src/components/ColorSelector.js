@@ -12,6 +12,11 @@ export default class ColorSelector extends Component {
         textInput: PropTypes.string
     };
 
+    onChange = ({ target }) => {
+        console.log('target', target.name, target.value);
+        this.setState({ [target.name]: target.value });
+    };
+
     render() {
         const { fontColor, backgroundColor } = this.state;
         const { textInput } = this.props;
