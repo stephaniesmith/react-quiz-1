@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app holds the text selector, color selector, and shape 1`] = `
+<React.Fragment>
+  <h1>
+    Hello React Quiz
+  </h1>
+  <ColorSelector
+    onChange={[Function]}
+    value="#000000"
+  />
+  <ColorSelector
+    onChange={[Function]}
+    value="#FFFFFF"
+  />
+  <TextSelector
+    onChange={[Function]}
+    value=""
+  />
+  <Shape
+    onChange={[Function]}
+  />
+</React.Fragment>
+`;
