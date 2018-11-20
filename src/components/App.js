@@ -5,8 +5,8 @@ import Shape from './Shape';
 
 export default class App extends Component {
   state = {
-    fontColor: 'white',
-    backgroundColor: 'grey',
+    fontColor: '',
+    backgroundColor: '',
     text: ''
   };
 
