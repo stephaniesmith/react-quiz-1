@@ -15,9 +15,9 @@ export default class Shape extends Component {
 
         return (
             <Fragment>
-                <div style={background}>
-                    {textInput && <p style={font}>{textInput}</p>}
-                </div>
+                {textInput && <div style={background}>
+                    <p style={font}>{textInput}</p>
+                </div>}
             </Fragment>
         );
     }
