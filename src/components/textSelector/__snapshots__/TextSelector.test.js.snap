@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextSelector component renders an TextSelector component 1`] = `
+<Fragment>
+  <label
+    htmlFor="textBox"
+  >
+    Input Text Here
+  </label>
+  <input
+    id="textBox"
+    name="textBox"
+    type="text"
+  />
+</Fragment>
+`;
