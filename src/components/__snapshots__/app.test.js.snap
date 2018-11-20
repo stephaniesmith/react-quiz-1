@@ -2,8 +2,17 @@
 
 exports[`App component renders an App component 1`] = `
 <Fragment>
-  <h1>
-    Hello World
-  </h1>
+  <TextSelector
+    updateText={[Function]}
+  />
+  <ColorSelector
+    updateBackgroundColor={[Function]}
+    updateTextColor={[Function]}
+  />
+  <Shape
+    backgroundColor="black"
+    text=""
+    textColor="black"
+  />
 </Fragment>
 `;

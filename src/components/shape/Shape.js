@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 const Shape = ({ text, textColor, backgroundColor }) => {
 
@@ -12,4 +12,3 @@ const Shape = ({ text, textColor, backgroundColor }) => {
 export default Shape;
 
 
-<div style={{ width: '100px', height: '100px' }}></div>

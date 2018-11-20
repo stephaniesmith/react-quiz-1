@@ -1,3 +1,76 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ColorSelector component renders an ColorSelector component 1`] = `<select />`;
+exports[`ColorSelector component renders an ColorSelector component 1`] = `
+<Fragment>
+  <label>
+    Change Text Color
+  </label>
+  <select>
+    <option
+      key="Black"
+      value="Black"
+    >
+      Black
+    </option>
+    <option
+      key="White"
+      value="White"
+    >
+      White
+    </option>
+    <option
+      key="Blue"
+      value="Blue"
+    >
+      Blue
+    </option>
+    <option
+      key="Red"
+      value="Red"
+    >
+      Red
+    </option>
+    <option
+      key="Yellow"
+      value="Yellow"
+    >
+      Yellow
+    </option>
+  </select>
+  <label>
+    Change Background Color
+  </label>
+  <select>
+    <option
+      key="Black"
+      value="Black"
+    >
+      Black
+    </option>
+    <option
+      key="White"
+      value="White"
+    >
+      White
+    </option>
+    <option
+      key="Blue"
+      value="Blue"
+    >
+      Blue
+    </option>
+    <option
+      key="Red"
+      value="Red"
+    >
+      Red
+    </option>
+    <option
+      key="Yellow"
+      value="Yellow"
+    >
+      Yellow
+    </option>
+  </select>
+</Fragment>
+`;

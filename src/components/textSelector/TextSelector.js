@@ -7,7 +7,7 @@ const TextSelector = ({ updateText }) => {
       <input name='textBox' id='textBox' type='text' onChange={updateText} />
 
     </Fragment>
-  )
-}
+  );
+};
 
 export default TextSelector;

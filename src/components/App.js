@@ -10,7 +10,7 @@ export default class App extends Component {
     text: '',
     textColor: 'black',
     backgroundColor: 'black'
-  }
+  };
 
   updateText = ({ target }) => {
     this.setState({ text: target.value });
@@ -27,8 +27,7 @@ export default class App extends Component {
   render() {
 
     const { text, textColor, backgroundColor } = this.state;
-    console.log(backgroundColor);
-    console.log(textColor);
+
 
     return (
       <Fragment>
