@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders App 1`] = `
+<div>
+  <h1>
+    App
+  </h1>
+  <TextSelector
+    onChange={[Function]}
+    text="Text Here"
+  />
+  <ColorSelector
+    onChange={[Function]}
+  />
+  <Shape
+    backgroundColor="black"
+    color="white"
+    text="Text Here"
+  />
+</div>
+`;

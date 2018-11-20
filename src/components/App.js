@@ -10,12 +10,18 @@ export default class App extends Component {
     backgroundColor: 'black'
   };
 
+  handleChange = ({ target }) => {
+    this.setState({ [target.name]: target.value });
+  };
+
   render() {
+    const { text } = this.state;
+
     return (
       <div>
         <h1>App</h1>
-        <TextSelector/>
-        <ColorSelector/>
+        <TextSelector text={text} onChange={this.handleChange}/>
+        <ColorSelector onChange={this.handleChange}/>
         <Shape  {...this.state}/>
       </div>
     );

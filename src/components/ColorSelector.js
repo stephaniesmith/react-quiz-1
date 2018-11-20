@@ -1,19 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const ColorSelector = props => {
+const ColorSelector = ({ onChange }) => {
   return (
     <div>
-      <label htmlFor="font-color">Font Color</label>
-      <input type="color" name="font-color"/>
-      <label htmlFor="background-color">Background Color</label>
-      <input type="color" name="background-color"/>
+      <label htmlFor="color">Font Color</label>
+      <input type="color" name="color" onChange={onChange}/>
+      <label htmlFor="backgroundColor">Background Color</label>
+      <input type="color" name="backgroundColor" onChange={onChange}/>
     </div>
   );
 };
 
 ColorSelector.propTypes = {
-
+  onChange: PropTypes.func.isRequired
 };
 
 export default ColorSelector;
