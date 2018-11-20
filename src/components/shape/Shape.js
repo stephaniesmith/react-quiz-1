@@ -3,7 +3,9 @@ import React, { Fragment } from 'react';
 const Shape = ({ text, textColor, backgroundColor }) => {
 
   return (
-    <h1 style={{color: textColor, background: backgroundColor }}>{text}</h1>
+    <div style={{ background: backgroundColor }}>
+      <h1 style={{ color: textColor }}>{text}</h1>
+    </div>
   );
 };
 
