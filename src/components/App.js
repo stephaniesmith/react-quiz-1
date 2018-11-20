@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import TextSelector from './TextSelector';
-// import domToImage from 'dom-to-image';
+import ColorSelector from './ColorSelector';
 
 export default class App extends Component {
     state={
@@ -16,6 +16,7 @@ export default class App extends Component {
         <Fragment>
           <h1>React Quiz</h1>
           <TextSelector />
+          <ColorSelector />
         </Fragment>
       );
     }
