@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextSelector Component renders a Songs component 1`] = `
+<Fragment>
+  <select>
+    <option
+      key="black"
+      value="black"
+    >
+      black
+    </option>
+    <option
+      key="white"
+      value="white"
+    >
+      white
+    </option>
+    <option
+      key="blue"
+      value="blue"
+    >
+      blue
+    </option>
+    <option
+      key="red"
+      value="red"
+    >
+      red
+    </option>
+    <option
+      key="yellow"
+      value="yellow"
+    >
+      yellow
+    </option>
+  </select>
+  <select>
+    <option
+      key="black"
+      value="black"
+    >
+      black
+    </option>
+    <option
+      key="white"
+      value="white"
+    >
+      white
+    </option>
+    <option
+      key="blue"
+      value="blue"
+    >
+      blue
+    </option>
+    <option
+      key="red"
+      value="red"
+    >
+      red
+    </option>
+    <option
+      key="yellow"
+      value="yellow"
+    >
+      yellow
+    </option>
+  </select>
+</Fragment>
+`;
